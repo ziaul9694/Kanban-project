@@ -1,5 +1,6 @@
 package zcd.ts4u.kanban.controllers;
 
+import jakarta.validation.Valid;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +12,6 @@ import zcd.ts4u.kanban.domain.Project;
 import zcd.ts4u.kanban.service.MapValidationErrorService;
 import zcd.ts4u.kanban.service.ProjectService;
 
-import javax.validation.Valid;
 
 @RestController
 @RequestMapping("/projects")

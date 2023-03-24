@@ -1,5 +1,6 @@
 package zcd.ts4u.kanban.controllers;
 
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -10,7 +11,6 @@ import zcd.ts4u.kanban.domain.ProjectTask;
 import zcd.ts4u.kanban.service.MapValidationErrorService;
 import zcd.ts4u.kanban.service.ProjectTaskService;
 
-import javax.validation.Valid;
 
 @RestController
 @RequestMapping("/backlog")
